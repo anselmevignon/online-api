@@ -3,6 +3,11 @@ A shell-friendly python client for using online API
 
 This script implements accessing and extracting data from the online.net API (https://console.online.net/en/api/)
 
+## Install
+    
+  from the cloned repository
+  pip install . --upgrade -r requirements.txt
+
 ## Configuration:
 
 You need to write a script configuration, located by default in /etc/online.secret:
@@ -10,6 +15,8 @@ You need to write a script configuration, located by default in /etc/online.secr
     {
         "access_token" : "YOUR_ACCESS_TOKEN"
     }
+
+The access token is available in online.net console, under the API menu.
     
 ## Example Usage
 
